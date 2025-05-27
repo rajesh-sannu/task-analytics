@@ -20,7 +20,6 @@ This project was developed as part of Stage 3 of the React Training Program. It 
 - ♻️ **Reusable Components** (Buttons, Inputs, Cards)
 - 🎨 **Tailwind CSS** for clean, responsive UI
 - 🔐 **Bonus:** Mock Authentication Flow
-- ✨ **Bonus:** Drag and Drop for Task Reordering *(if implemented)*
 
 ---
 
@@ -46,34 +45,28 @@ CopyEdit
 ## 🔧 Installation & Setup
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/your-username/task-dashboard.git
-cd task-dashboard
+   ```bash
+   git clone https://github.com/your-username/task-dashboard.git
+   cd task-dashboard
 
-Install dependencies
+2. **Install dependencies**
+   ```bash
+   npm install
 
-bash
-CopyEdit
-npm install
+3. **Run the app**
+   ```bash
+   npm run dev
 
-Run the app
+4. **Build for production**
+   ```bash
+   npm run build
 
-bash
-CopyEdit
-npm run dev
+---
 
-Build for production
-
-bash
-CopyEdit
-npm run build
-
-
-🧪 Tech Stack
-React with Functional Components
-React Router DOM for SPA routing
-React Context API for global state
-Tailwind CSS for styling
-Vite for development build tools
-(Optional) Framer Motion for animations
-(Optional) React Beautiful DnD for drag & drop functionality
+## 🧪 Tech Stack
+- React with Functional Components
+- React Router DOM for SPA routing
+- React Context API for global state
+- Tailwind CSS for styling
+- Vite for development build tools
+- Framer Motion for animations (Optional) 
